@@ -56,7 +56,9 @@ export const siteData = {
       "regularPath": "/",
       "relativePath": "README.md",
       "key": "v-418dc0c6",
-      "path": "/"
+      "path": "/",
+      "lastUpdated": "1/5/2022, 5:28:30 PM",
+      "lastUpdatedTimestamp": 1641374910000
     },
     {
       "title": "3.CSS基础二",
@@ -144,7 +146,9 @@ export const siteData = {
           "title": "CSS 三角形",
           "slug": "css-三角形"
         }
-      ]
+      ],
+      "lastUpdated": "1/5/2022, 5:28:30 PM",
+      "lastUpdatedTimestamp": 1641374910000
     },
     {
       "title": "2.CSS基础一",
@@ -232,35 +236,9 @@ export const siteData = {
           "title": "标签显示模式转换 display",
           "slug": "标签显示模式转换-display"
         }
-      ]
-    },
-    {
-      "title": "6.HTML中的一些细节",
-      "frontmatter": {
-        "title": "6.HTML中的一些细节",
-        "sidebarDepth": 0
-      },
-      "regularPath": "/html/details.html",
-      "relativePath": "html/details.md",
-      "key": "v-15ddb0b2",
-      "path": "/html/details.html",
-      "headers": [
-        {
-          "level": 3,
-          "title": "1、fetch请求",
-          "slug": "_1、fetch请求"
-        },
-        {
-          "level": 3,
-          "title": "2、xhr请求",
-          "slug": "_2、xhr请求"
-        },
-        {
-          "level": 3,
-          "title": "3、未跨域报错",
-          "slug": "_3、未跨域报错"
-        }
-      ]
+      ],
+      "lastUpdated": "1/5/2022, 5:28:30 PM",
+      "lastUpdatedTimestamp": 1641374910000
     },
     {
       "title": "4.HTML5 + CSS3 新特性",
@@ -363,7 +341,9 @@ export const siteData = {
           "title": "总结",
           "slug": "总结"
         }
-      ]
+      ],
+      "lastUpdated": "1/5/2022, 5:28:30 PM",
+      "lastUpdatedTimestamp": 1641374910000
     },
     {
       "title": "1.HTML基础篇",
@@ -501,7 +481,39 @@ export const siteData = {
           "title": "src与href的区别",
           "slug": "src与href的区别"
         }
-      ]
+      ],
+      "lastUpdated": "1/5/2022, 5:28:30 PM",
+      "lastUpdatedTimestamp": 1641374910000
+    },
+    {
+      "title": "6.HTML中的一些细节",
+      "frontmatter": {
+        "title": "6.HTML中的一些细节",
+        "sidebarDepth": 0
+      },
+      "regularPath": "/html/details.html",
+      "relativePath": "html/details.md",
+      "key": "v-15ddb0b2",
+      "path": "/html/details.html",
+      "headers": [
+        {
+          "level": 3,
+          "title": "1、fetch请求",
+          "slug": "_1、fetch请求"
+        },
+        {
+          "level": 3,
+          "title": "2、xhr请求",
+          "slug": "_2、xhr请求"
+        },
+        {
+          "level": 3,
+          "title": "3、未跨域报错",
+          "slug": "_3、未跨域报错"
+        }
+      ],
+      "lastUpdated": "1/5/2022, 5:28:30 PM",
+      "lastUpdatedTimestamp": 1641374910000
     },
     {
       "title": "11",
@@ -509,22 +521,9 @@ export const siteData = {
       "regularPath": "/js/",
       "relativePath": "js/README.md",
       "key": "v-83f098ee",
-      "path": "/js/"
-    },
-    {
-      "title": "我是js",
-      "frontmatter": {},
-      "regularPath": "/js/j1.html",
-      "relativePath": "js/j1.md",
-      "key": "v-7ce05aa2",
-      "path": "/js/j1.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "es6",
-          "slug": "es6"
-        }
-      ]
+      "path": "/js/",
+      "lastUpdated": "1/5/2022, 5:28:30 PM",
+      "lastUpdatedTimestamp": 1641374910000
     },
     {
       "title": "5.移动端布局",
@@ -642,7 +641,26 @@ export const siteData = {
           "title": "Bootstrap栅格系统",
           "slug": "bootstrap栅格系统"
         }
-      ]
+      ],
+      "lastUpdated": "1/5/2022, 5:28:30 PM",
+      "lastUpdatedTimestamp": 1641374910000
+    },
+    {
+      "title": "我是js",
+      "frontmatter": {},
+      "regularPath": "/js/j1.html",
+      "relativePath": "js/j1.md",
+      "key": "v-7ce05aa2",
+      "path": "/js/j1.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "es6",
+          "slug": "es6"
+        }
+      ],
+      "lastUpdated": "1/5/2022, 5:28:30 PM",
+      "lastUpdatedTimestamp": 1641374910000
     },
     {
       "title": "11",
@@ -657,7 +675,9 @@ export const siteData = {
           "title": "66",
           "slug": "_66"
         }
-      ]
+      ],
+      "lastUpdated": "1/5/2022, 5:28:30 PM",
+      "lastUpdatedTimestamp": 1641374910000
     }
   ],
   "themeConfig": {
