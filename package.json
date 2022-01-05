@@ -1,0 +1,15 @@
+{
+  "name": "vuepress_study",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vuepress dev docs --temp .temp",
+    "build": "vuepress build docs"
+  },
+  "repository": "https://github.com/jxmchou/vuepress_study.git",
+  "author": "jxmchou <1830893151@qq.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "vuepress": "^1.9.5"
+  }
+}
