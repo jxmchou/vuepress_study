@@ -1,7 +1,21 @@
 ---
-title: 3.CSS基础二
+title: CSS基础二
 sidebarDepth: 0
+date: 2022-01-05
+categories:
+ - H5C3
+tags:
+ - css
 ---
+
+::: tip 
+本文主要包括css的基本部分二，选取至pink老师
+:::
+
+<!-- more -->
+
+### markdown正文
+
 
 # 盒子模型 ✍
 > W3c标准盒子模型

@@ -1,7 +1,21 @@
 ---
-title: 1.HTML基础篇
+title: HTML基础篇
 sidebarDepth: 0
+date: 2022-01-05
+categories:
+ - H5C3
+tags:
+ - html
 ---
+
+::: tip 
+本文主要包括html的基本部分，选取至pink老师
+:::
+
+<!-- more -->
+
+### markdown正文
+
 # 一、认识WEB✍
 ## 1.1 前提知识
 `「网页」`主要是由`文字`、`图像` 和 `超链接`等元素构成，当然除了这些元素，网页中还可以包括音频、视频以及Flash等。

@@ -1,7 +1,21 @@
 ---
-title: 6.HTML中的一些细节
+title: HTML中的一些细节
 sidebarDepth: 0
+date: 2022-01-05
+categories:
+ - H5C3
+tags:
+ - html细节
 ---
+
+::: tip 
+本文主要包括HTML中的一些细节
+:::
+
+<!-- more -->
+
+### markdown正文
+
 # # 说明
 >参考资料:简书的 伴歌知行的[JS下载图片和文件，防止浏览器直接打开](https://www.jianshu.com/p/b9dd865b22f2) 、[夜半修仙](https://www.jianshu.com/p/f26bd8da174f),;<br>CSDN的weixin_3791475的[使用a标签下载文件不跳转](https://blog.csdn.net/weixin_37914752/article/details/111902504);<br>努力学习的汪：[洪学习笔记](https://gitee.com/hongjilin/hongs-study-notes/tree/master/%E7%BC%96%E7%A8%8B_%E5%89%8D%E7%AB%AF%E5%BC%80%E5%8F%91%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/HTML+CSS+JS%E5%9F%BA%E7%A1%80%E7%AC%94%E8%AE%B0)
 

@@ -1,7 +1,21 @@
 ---
-title: 2.CSS基础一
+title: CSS基础一
 sidebarDepth: 0
+date: 2022-01-05
+categories:
+ - H5C3
+tags:
+ - css
 ---
+
+::: tip 
+本文主要包括css的基本部分一，选取至pink老师
+:::
+
+<!-- more -->
+
+### markdown正文
+
 # CSS选择器 ✍
 ## 1. CSS基础选择器
 ### ① 标签选择器

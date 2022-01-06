@@ -8,8 +8,8 @@ export default {
   "v-66a57ee2": () => import("D:\\F盘\\桌面\\vue项目实战\\前端所有笔记\\vuepress_study\\docs\\html\\h5c3.md"),
   "v-5a38a422": () => import("D:\\F盘\\桌面\\vue项目实战\\前端所有笔记\\vuepress_study\\docs\\html\\html.md"),
   "v-15ddb0b2": () => import("D:\\F盘\\桌面\\vue项目实战\\前端所有笔记\\vuepress_study\\docs\\html\\details.md"),
-  "v-83f098ee": () => import("D:\\F盘\\桌面\\vue项目实战\\前端所有笔记\\vuepress_study\\docs\\js\\README.md"),
   "v-07eeab42": () => import("D:\\F盘\\桌面\\vue项目实战\\前端所有笔记\\vuepress_study\\docs\\html\\mobile.md"),
+  "v-83f098ee": () => import("D:\\F盘\\桌面\\vue项目实战\\前端所有笔记\\vuepress_study\\docs\\js\\README.md"),
   "v-7ce05aa2": () => import("D:\\F盘\\桌面\\vue项目实战\\前端所有笔记\\vuepress_study\\docs\\js\\j1.md"),
   "v-4f1ec4fc": () => import("D:\\F盘\\桌面\\vue项目实战\\前端所有笔记\\vuepress_study\\docs\\js\\j2.md") 
 }

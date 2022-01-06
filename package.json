@@ -10,6 +10,21 @@
   "author": "jxmchou <1830893151@qq.com>",
   "license": "MIT",
   "devDependencies": {
-    "vuepress": "^1.9.5"
+    "@vuepress/plugin-active-header-links": "^1.9.5",
+    "@vuepress/plugin-pwa": "^1.9.5",
+    "vuepress": "^1.9.5",
+    "vuepress-plugin-go-top": "^1.0.4"
+  },
+  "dependencies": {
+    "@vuepress-reco/vuepress-plugin-kan-ban-niang": "^1.0.5",
+    "@vuepress/plugin-medium-zoom": "^1.9.5",
+    "moment": "^2.29.1",
+    "vuepress-plugin-code-copy": "^1.0.6",
+    "vuepress-plugin-cursor-effects": "^1.0.2",
+    "vuepress-plugin-dynamic-title": "^1.0.0",
+    "vuepress-plugin-flowchart": "^1.5.0",
+    "vuepress-plugin-nuggets-style-copy": "^1.0.3",
+    "vuepress-plugin-ribbon": "^1.0.4",
+    "vuepress-theme-reco": "^1.6.10"
   }
 }

@@ -61,6 +61,14 @@ export const routes = [
     },
   },
   {
+    name: "v-07eeab42",
+    path: "/html/mobile.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-07eeab42").then(next)
+    },
+  },
+  {
     name: "v-83f098ee",
     path: "/js/",
     component: GlobalLayout,
@@ -71,14 +79,6 @@ export const routes = [
   {
     path: "/js/index.html",
     redirect: "/js/"
-  },
-  {
-    name: "v-07eeab42",
-    path: "/html/mobile.html",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-07eeab42").then(next)
-    },
   },
   {
     name: "v-7ce05aa2",
@@ -95,6 +95,136 @@ export const routes = [
     beforeEnter: (to, from, next) => {
       ensureAsyncComponentsLoaded("Layout", "v-4f1ec4fc").then(next)
     },
+  },
+  {
+    name: "v-b1564aac",
+    path: "/tag/",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Tags", "v-b1564aac").then(next)
+    },
+    meta: {"pid":"tags","id":"tags"}
+  },
+  {
+    path: "/tag/index.html",
+    redirect: "/tag/"
+  },
+  {
+    name: "v-ef9325c4",
+    path: "/categories/",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("FrontmatterKey", "v-ef9325c4").then(next)
+    },
+    meta: {"pid":"categories","id":"categories"}
+  },
+  {
+    path: "/categories/index.html",
+    redirect: "/categories/"
+  },
+  {
+    name: "v-6319eb4e",
+    path: "/timeline/",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("TimeLines", "v-6319eb4e").then(next)
+    },
+    meta: {"pid":"timeline","id":"timeline"}
+  },
+  {
+    path: "/timeline/index.html",
+    redirect: "/timeline/"
+  },
+  {
+    name: "v-323b9794",
+    path: "/tag/css/",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Tag", "v-323b9794").then(next)
+    },
+    meta: {"pid":"tags","id":"css"}
+  },
+  {
+    path: "/tag/css/index.html",
+    redirect: "/tag/css/"
+  },
+  {
+    name: "v-64b9d830",
+    path: "/tag/h5c3新特性/",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Tag", "v-64b9d830").then(next)
+    },
+    meta: {"pid":"tags","id":"h5c3新特性"}
+  },
+  {
+    path: "/tag/h5c3新特性/index.html",
+    redirect: "/tag/h5c3新特性/"
+  },
+  {
+    name: "v-14a9a50c",
+    path: "/tag/html/",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Tag", "v-14a9a50c").then(next)
+    },
+    meta: {"pid":"tags","id":"html"}
+  },
+  {
+    path: "/tag/html/index.html",
+    redirect: "/tag/html/"
+  },
+  {
+    name: "v-55bf7874",
+    path: "/tag/html细节/",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Tag", "v-55bf7874").then(next)
+    },
+    meta: {"pid":"tags","id":"html细节"}
+  },
+  {
+    path: "/tag/html细节/index.html",
+    redirect: "/tag/html细节/"
+  },
+  {
+    name: "v-e8d88bd0",
+    path: "/tag/h5/",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Tag", "v-e8d88bd0").then(next)
+    },
+    meta: {"pid":"tags","id":"h5"}
+  },
+  {
+    path: "/tag/h5/index.html",
+    redirect: "/tag/h5/"
+  },
+  {
+    name: "v-6106cb74",
+    path: "/categories/H5C3/",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Category", "v-6106cb74").then(next)
+    },
+    meta: {"pid":"categories","id":"H5C3"}
+  },
+  {
+    path: "/categories/H5C3/index.html",
+    redirect: "/categories/H5C3/"
+  },
+  {
+    name: "v-5f0beb54",
+    path: "/categories/移动端/",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Category", "v-5f0beb54").then(next)
+    },
+    meta: {"pid":"categories","id":"移动端"}
+  },
+  {
+    path: "/categories/移动端/index.html",
+    redirect: "/categories/移动端/"
   },
   {
     path: '*',

@@ -1,7 +1,22 @@
 ---
-title: 5.移动端布局
+title: 移动端布局
 sidebarDepth: 0
+date: 2022-01-05
+categories:
+ - 移动端
+tags:
+ - h5
 ---
+
+::: tip 
+本文主要介绍H5网页移动端布局，包含流失布局、Flex(弹性盒) 布局、等...
+:::
+
+<!-- more -->
+
+### markdown正文
+
+
 # 流失布局 ✍
 ## 概述
 >- 移动端浏览器我们主要对webkit内核进行兼容
