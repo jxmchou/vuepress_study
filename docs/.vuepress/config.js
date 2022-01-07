@@ -1,4 +1,6 @@
 const plugins = require('./plugins')
+const nav = require('./config/nav')
+const sidebar = require('./config/sidebar')
 module.exports = {
   title: 'MC猴的博客',
   description: '你在凝望深渊的时候，深渊也在凝望你！！！',
@@ -39,36 +41,19 @@ module.exports = {
     author: 'MC猴',
     authorAvatar: '/img/logo.jpg',
     lastUpdated: '最近更新时间',
-    nav: [
-      { text: 'HTML', link: '/html/html' },
-      { text: 'JS', link: '/js/' },
-      { text: 'AJAX', link: '/ajax/' },
-      { text: 'VUE', link: '/vue/' },
-      {
-        text: 'VUE项目',
-        items: [
-          { text: '网抑云音乐PC', link: 'http://music.ychzx.top' },
-          { text: '前台购物项目', link: 'http://shop.ychzx.top' },
-          { text: '后台电商管理项目', link: 'http://admin.ychzx.top' }
-        ]
-      },
-      { text: '时间线', link: '/timeline/', icon: 'reco-date' }
-    ],
-    sidebar: {
-      '/html/': ['html', 'css', 'css2', 'h5c3', 'mobile', 'details','css3','css4'],
-      '/js/': ['j1', 'j2']
-    },
+    nav,
+    sidebar,
     subSidebar: 'auto',
     noFoundPageByTencent: false,
     blogConfig: {
-      // category: {
-      //   location: 2, // 在导航栏菜单中所占的位置，默认2
-      //   text: '知识分类' // 默认文案 “分类”
-      // },
-      // tag: {
-      //   location: 3, // 在导航栏菜单中所占的位置，默认3
-      //   text: '分类标签' // 默认文案 “标签”
-      // },
+      category: {
+        location: 5, // 在导航栏菜单中所占的位置，默认2
+        text: '知识分类' // 默认文案 “分类”
+      },
+      tag: {
+        location: 6, // 在导航栏菜单中所占的位置，默认3
+        text: '分类标签' // 默认文案 “标签”
+      },
       socialLinks: [
         // 信息栏展示社交信息
         { icon: 'reco-github', link: 'https://github.com/jxmchou' },
