@@ -2,7 +2,7 @@ import m0 from "D:\\F盘\\桌面\\vue项目实战\\前端所有笔记\\vuepress_
 import m1 from "D:\\F盘\\桌面\\vue项目实战\\前端所有笔记\\vuepress_study\\.temp\\app-enhancers\\1.js"
 import m2 from "D:\\F盘\\桌面\\vue项目实战\\前端所有笔记\\vuepress_study\\.temp\\app-enhancers\\2.js"
 import m3 from "D:\\F盘\\桌面\\vue项目实战\\前端所有笔记\\vuepress_study\\.temp\\app-enhancers\\data-block.js"
-import m4 from "D:\\F盘\\桌面\\vue项目实战\\前端所有笔记\\vuepress_study\\.temp\\app-enhancers\\global-components-28.js"
+import m4 from "D:\\F盘\\桌面\\vue项目实战\\前端所有笔记\\vuepress_study\\.temp\\app-enhancers\\global-components-1.js"
 import m5 from "D:\\F盘\\桌面\\vue项目实战\\前端所有笔记\\vuepress_study\\.temp\\app-enhancers\\3.js"
 import m6 from "D:\\F盘\\桌面\\vue项目实战\\前端所有笔记\\vuepress_study\\.temp\\app-enhancers\\4.js"
 import m7 from "D:\\F盘\\桌面\\vue项目实战\\前端所有笔记\\vuepress_study\\.temp\\app-enhancers\\5.js"

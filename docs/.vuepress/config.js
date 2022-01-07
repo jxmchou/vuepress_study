@@ -55,7 +55,7 @@ module.exports = {
       { text: '时间线', link: '/timeline/', icon: 'reco-date' }
     ],
     sidebar: {
-      '/html/': ['html', 'css', 'css2', 'h5c3', 'mobile', 'details'],
+      '/html/': ['html', 'css', 'css2', 'h5c3', 'mobile', 'details','css3','css4'],
       '/js/': ['j1', 'j2']
     },
     subSidebar: 'auto',

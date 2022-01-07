@@ -37,6 +37,14 @@ export const routes = [
     },
   },
   {
+    name: "v-426fc7fc",
+    path: "/html/css3.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-426fc7fc").then(next)
+    },
+  },
+  {
     name: "v-66a57ee2",
     path: "/html/h5c3.html",
     component: GlobalLayout,
@@ -45,11 +53,11 @@ export const routes = [
     },
   },
   {
-    name: "v-5a38a422",
-    path: "/html/html.html",
+    name: "v-a3b1533c",
+    path: "/html/css4.html",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-5a38a422").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-a3b1533c").then(next)
     },
   },
   {
@@ -58,6 +66,14 @@ export const routes = [
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
       ensureAsyncComponentsLoaded("Layout", "v-15ddb0b2").then(next)
+    },
+  },
+  {
+    name: "v-5a38a422",
+    path: "/html/html.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-5a38a422").then(next)
     },
   },
   {
@@ -149,6 +165,19 @@ export const routes = [
     redirect: "/tag/css/"
   },
   {
+    name: "v-0dafe5c8",
+    path: "/tag/视口适配页面/",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Tag", "v-0dafe5c8").then(next)
+    },
+    meta: {"pid":"tags","id":"视口适配页面"}
+  },
+  {
+    path: "/tag/视口适配页面/index.html",
+    redirect: "/tag/视口适配页面/"
+  },
+  {
     name: "v-64b9d830",
     path: "/tag/h5c3新特性/",
     component: GlobalLayout,
@@ -162,17 +191,17 @@ export const routes = [
     redirect: "/tag/h5c3新特性/"
   },
   {
-    name: "v-14a9a50c",
-    path: "/tag/html/",
+    name: "v-6514691c",
+    path: "/tag/CSS-查漏补缺/",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Tag", "v-14a9a50c").then(next)
+      ensureAsyncComponentsLoaded("Tag", "v-6514691c").then(next)
     },
-    meta: {"pid":"tags","id":"html"}
+    meta: {"pid":"tags","id":"CSS-查漏补缺"}
   },
   {
-    path: "/tag/html/index.html",
-    redirect: "/tag/html/"
+    path: "/tag/CSS-查漏补缺/index.html",
+    redirect: "/tag/CSS-查漏补缺/"
   },
   {
     name: "v-55bf7874",
@@ -186,6 +215,19 @@ export const routes = [
   {
     path: "/tag/html细节/index.html",
     redirect: "/tag/html细节/"
+  },
+  {
+    name: "v-14a9a50c",
+    path: "/tag/html/",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Tag", "v-14a9a50c").then(next)
+    },
+    meta: {"pid":"tags","id":"html"}
+  },
+  {
+    path: "/tag/html/index.html",
+    redirect: "/tag/html/"
   },
   {
     name: "v-e8d88bd0",
