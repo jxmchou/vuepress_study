@@ -11,8 +11,6 @@ module.exports = {
   },
   head: [
     ['link', { rel: 'icon', href: '/favicon.ico' }],
-    // ['link', { rel: 'preload', href: '/css/prism.css' }],
-    // ['script', { charset: 'utf-8', src: '/js/prism.js' }],
     [
       'meta',
       {
@@ -21,7 +19,14 @@ module.exports = {
       }
     ],
     ['meta', { name: 'author', content: 'MC猴' }],
-    ['meta', { name: 'keywords', content: 'html,css,vue,vue项目,MC猴的网站' }],
+    [
+      'meta',
+      {
+        name: 'keywords',
+        content:
+          'html,css,vue,vue项目,个人博客,Vuepress,前端,JavaScript,HTML,Vue,web跨域,React,Nodejs,MC猴的网站'
+      }
+    ],
     [
       'script',
       {},

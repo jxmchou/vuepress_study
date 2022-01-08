@@ -1,6 +1,6 @@
 module.exports = [
   { text: 'HTML', link: '/guide/html/html' },
-  { text: 'JS', link: '/guide/js/js_1' },
+  { text: 'JS', link: '/guide/js/js_2' },
   { text: 'AJAX', link: '/guide/ajax/ajax' },
   { text: 'VUE', link: '/guide/vue/vue2' },
   {
