@@ -9,7 +9,7 @@ tags:
 ---
 
 ::: tip
-原型链的具体讲解，单独抽出，整合自[努力学习的汪](https://gitee.com/hongjilin/hongs-study-notes)
+原型链的具体讲解，单独抽出，整合自[努力学习的汪](https://gitee.com/hongjilin/hongs-study-notes),侵权删
 :::
 
 <!-- more -->

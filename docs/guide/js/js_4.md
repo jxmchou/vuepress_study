@@ -10,7 +10,7 @@ tags:
 ---
 
 ::: tip
-js闭包部分的具体讲解，单独抽出，整合自[努力学习的汪](https://gitee.com/hongjilin/hongs-study-notes)
+js闭包部分的具体讲解，单独抽出，整合自[努力学习的汪](https://gitee.com/hongjilin/hongs-study-notes),侵权删
 :::
 
 <!-- more -->
@@ -612,14 +612,14 @@ js闭包部分的具体讲解，单独抽出，整合自[努力学习的汪](htt
 >     function doOtherthing () {
 >       console.log('doOtherthing() '+msg.toLowerCase())
 >     }
->                 
+>                   
 >     //向外暴露对象(给外部使用的方法)
 >     return {
 >       doSomething: doSomething,
 >       doOtherthing: doOtherthing
 >     }
 >   }
->                 
+>                   
 >   -----------------------------------------------------------------
 >   // myModule2.js   
 >   (function () {
@@ -632,14 +632,14 @@ js闭包部分的具体讲解，单独抽出，整合自[努力学习的汪](htt
 >     function doOtherthing () {
 >       console.log('doOtherthing() '+msg.toLowerCase())
 >     }
->                 
+>                   
 >     //向外暴露对象(给外部使用的方法)
 >     window.myModule2 = {
 >       doSomething: doSomething,
 >       doOtherthing: doOtherthing
 >     }
 >   })()    
->                 
+>                   
 >   ```
 >
 >2. 模块调用

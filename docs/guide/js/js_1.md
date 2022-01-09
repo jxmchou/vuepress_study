@@ -9,7 +9,7 @@ tags:
 ---
 
 ::: tip
-js基础部分，来源于 gitee[努力学习的汪](https://gitee.com/hongjilin/hongs-study-notes)，稍加修改整合
+js基础部分，来源于 gitee[努力学习的汪](https://gitee.com/hongjilin/hongs-study-notes)，稍加修改整合,侵权删
 :::
 
 <!-- more -->
