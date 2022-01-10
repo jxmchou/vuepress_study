@@ -10,7 +10,8 @@ module.exports = [
       }
     }
   ],
-  [
+  //#region
+  /* [
     '@vuepress-reco/vuepress-plugin-kan-ban-niang',
     {
       theme: [
@@ -36,7 +37,8 @@ module.exports = [
       width: 240,
       height: 352
     }
-  ],
+  ], */
+  //#endregion
   [
     'ribbon',
     {
@@ -64,19 +66,19 @@ module.exports = [
       recoverTime: 2000
     }
   ],
-  /* [
+  [
     //图片放大插件
     '@vuepressplugin-medium-zoom',
     {
       selector: '.page img',
-      delay: 1000,
+      delay: 1200,
       options: {
         margin: 24,
         background: 'rgba(25,18,25,0.9)',
         scrollOffset: 40
       }
     }
-  ] */
+  ],
   [
     //插件广场的流程图插件 先安装在配置 yarn add vuepress-plugin-flowchart
     'flowchart'

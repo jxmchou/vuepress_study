@@ -15,66 +15,67 @@ git 语法，整合自[努力学习的汪](https://gitee.com/hongjilin/hongs-stu
 
 <!-- more -->
 
-# #说明
+## #说明
 
-# 常用Git命令总结
+## 常用 Git 命令总结
 
 ```shell
-- git config --global user.name "你的名字" 让你全部的Git仓库绑定你的名字
-- git config --global user.email "你的邮箱" 让你全部的Git仓库绑定你的邮箱
-- git init 初始化你的仓库
-- git add . 把工作区的文件全部提交到暂存区
-- git add ./<file>/ 把工作区的<file>文件提交到暂存区
-- git commit -m "xxx" 把暂存区的所有文件提交到仓库区，暂存区空空荡荡
-- git remote add origin https://github.com/name/name_cangku.git 把本地仓库与远程仓库连接起来
-- git push -u origin master 把仓库区的主分支master提交到远程仓库里
-- git push -u origin <其他分支> 把其他分支提交到远程仓库
-- git status查看当前仓库的状态
-- git diff 查看文件修改的具体内容
-- git log 显示从最近到最远的提交历史  git log --pretty=oneline(更简洁的方式显示)
-- git clone + 仓库地址下载克隆文件
-- git reset --hard + 版本号 回溯版本，版本号在commit的时候与master跟随在一起
-- git reflog 显示命令历史
-- git checkout -- <file> 撤销命令，用版本库里的文件替换掉工作区的文件。我觉得就像是Git世界的ctrl + z
-- git rm 删除版本库的文件
-- git branch 查看当前所有分支
-- git branch <分支名字> 创建分支
-- git checkout <分支名字> 切换到分支
-- git merge <分支名字> 合并分支
-- git branch -d <分支名字> 删除分支,有可能会删除失败，因为Git会保护没有被合并的分支
-- git branch -D + <分支名字> 强行删除，丢弃没被合并的分支
-- git log --graph 查看分支合并图
-- git merge --no-ff <分支名字> 合并分支的时候禁用Fast forward模式,因为这个模式会丢失分支历史信息
-- git stash 当有其他任务插进来时，把当前工作现场“存储”起来,以后恢复后继续工作
-- git stash list 查看你刚刚“存放”起来的工作去哪里了
-- git stash apply 恢复却不删除stash内容
-- git stash drop 删除stash内容
-- git stash pop 恢复的同时把stash内容也删了
-- git remote 查看远程库的信息，会显示origin，远程仓库默认名称为origin
-- git remote -v 显示更详细的信息
-- git pull 把最新的提交从远程仓库中抓取下来，在本地合并,和git push相反
-- git rebase 把分叉的提交历史“整理”成一条直线，看上去更直观
-- git tag 查看所有标签，可以知道历史版本的tag
-- git tag <name> 打标签，默认为HEAD。比如git tag v1.0
-- git tag <tagName> <版本号> 把版本号打上标签，版本号就是commit时，跟在旁边的一串字母数字
-- git show <tagName> 查看标签信息
-- git tag -a <tagName> -m "<说明>" 创建带说明的标签。-a指定标签名，-m指定说明文字
-- git tag -d <tagName> 删除标签
-- git push origin <tagname> 推送某个标签到远程
-- git push origin --tags 一次性推送全部尚未推送到远程的本地标签
-- git push origin :refs/tags/<tagname> 删除远程标签<tagname>
-- git config --global color.ui true 让Git显示颜色，会让命令输出看起来更醒目
-- git add -f <file> 强制提交已忽略的的文件
-- git check-ignore -v `<file>` 检查为什么Git会忽略该文件
+ git config --global user.name "你的名字" 让你全部的Git仓库绑定你的名字
+ git config --global user.email "你的邮箱" 让你全部的Git仓库绑定你的邮箱
+ git init 初始化你的仓库
+ git add . 把工作区的文件全部提交到暂存区
+ git add ./<file>/ 把工作区的<file>文件提交到暂存区
+ git commit -m "xxx" 把暂存区的所有文件提交到仓库区，暂存区空空荡荡
+ git remote add origin https://github.com/name/name_cangku.git 把本地仓库与远程仓库连接起来
+ git push -u origin master 把仓库区的主分支master提交到远程仓库里
+ git push -u origin <其他分支> 把其他分支提交到远程仓库
+ git status查看当前仓库的状态
+ git diff 查看文件修改的具体内容
+ git log 显示从最近到最远的提交历史  git log --pretty=oneline(更简洁的方式显示)
+ git clone + 仓库地址下载克隆文件
+ git reset --hard + 版本号 回溯版本，版本号在commit的时候与master跟随在一起
+ git reflog 显示命令历史
+ git checkout -- <file> 撤销命令，用版本库里的文件替换掉工作区的文件。我觉得就像是Git世界的ctrl + z
+ git rm 删除版本库的文件
+ git branch 查看当前所有分支
+ git branch <分支名字> 创建分支
+ git checkout <分支名字> 切换到分支
+ git merge <分支名字> 合并分支
+ git branch -d <分支名字> 删除分支,有可能会删除失败，因为Git会保护没有被合并的分支
+ git branch -D + <分支名字> 强行删除，丢弃没被合并的分支
+ git log --graph 查看分支合并图
+ git merge --no-ff <分支名字> 合并分支的时候禁用Fast forward模式,因为这个模式会丢失分支历史信息
+ git stash 当有其他任务插进来时，把当前工作现场“存储”起来,以后恢复后继续工作
+ git stash list 查看你刚刚“存放”起来的工作去哪里了
+ git stash apply 恢复却不删除stash内容
+ git stash drop 删除stash内容
+ git stash pop 恢复的同时把stash内容也删了
+ git remote 查看远程库的信息，会显示origin，远程仓库默认名称为origin
+ git remote -v 显示更详细的信息
+ git pull 把最新的提交从远程仓库中抓取下来，在本地合并,和git push相反
+ git rebase 把分叉的提交历史“整理”成一条直线，看上去更直观
+ git tag 查看所有标签，可以知道历史版本的tag
+ git tag <name> 打标签，默认为HEAD。比如git tag v1.0
+ git tag <tagName> <版本号> 把版本号打上标签，版本号就是commit时，跟在旁边的一串字母数字
+ git show <tagName> 查看标签信息
+ git tag -a <tagName> -m "<说明>" 创建带说明的标签。-a指定标签名，-m指定说明文字
+ git tag -d <tagName> 删除标签
+ git push origin <tagname> 推送某个标签到远程
+ git push origin --tags 一次性推送全部尚未推送到远程的本地标签
+ git push origin :refs/tags/<tagname> 删除远程标签<tagname>
+ git config --global color.ui true 让Git显示颜色，会让命令输出看起来更醒目
+ git add -f <file> 强制提交已忽略的的文件
+ git check-ignore -v `<file>` 检查为什么Git会忽略该文件
 ```
 
-# vim 常用指令
+## vim 常用指令
 
-## VIM 进入和退出命令
+### VIM 进入和退出命令
 
 > 常用命令是 ESC，然后:wq（保存并退出），:q!(不保存并强制退出），i 进入 vim 模式。另外还有其它的，我可能都不会用到。。。
 > 按 ESC 键 跳到命令模式，然后：
 
+```shell
 1. **:w 保存文件但不退出 vi**
 2. **:w file 将修改另外保存到 file 中，不退出 vi**
 3. **:w! 强制保存，不推出 vi**
@@ -83,12 +84,13 @@ git 语法，整合自[努力学习的汪](https://gitee.com/hongjilin/hongs-stu
 6. **q: 不保存文件，退出 vi**
 7. **:q! 不保存文件，强制退出 vi**
 8. **:e! 放弃所有修改，从上次保存文件开始再编辑**
+```
 
-## 命令历史
+### 命令历史
 
 以:和/开头的命令都有历史纪录，可以首先键入:或/然后按上下箭头来选择某个历史命令。
 
-## 启动 vim
+### 启动 vim
 
 在命令行窗口中输入以下命令即可
 
@@ -96,7 +98,7 @@ vim 直接启动 vim
 
 vim filename 打开 vim 并创建名为 filename 的文件
 
-## 文件命令
+### 文件命令
 
 打开单个文件
 
@@ -132,17 +134,17 @@ vim file1 file2 file3 ...
 
 :e \\qadrive\test\1.txt
 
-## vim 的模式
+### vim 的模式
 
 正常模式（按 Esc 或 Ctrl+[进入） 左下角显示文件名或为空
 插入模式（按 i 键进入） 左下角显示--INSERT--
 可视模式（不知道如何进入） 左下角显示--VISUAL--
 
-## 导航命令
+### 导航命令
 
 % 括号匹配
 
-## 插入命令
+### 插入命令
 
 i 在当前位置生前插入
 
@@ -156,7 +158,7 @@ o 在当前行之后插入一行
 
 O 在当前行之前插入一行
 
-## 查找命令
+### 查找命令
 
 /text 　　查找 text，按 n 健查找下一个，按 N 健查找前一个。
 
@@ -180,7 +182,7 @@ vim 中有一些特殊字符在查找时需要转义　　.\*[]^%/?~$
 
 :set wrapscan 　　重新搜索，在搜索到文件头或尾时，返回继续搜索，默认开启。
 
-## 替换命令
+### 替换命令
 
 ra 将当前字符替换为 a，当期字符即光标所在字符。
 
@@ -196,13 +198,13 @@ s/old/new/g 用 old 替换 new，替换当前行的所有匹配
 
 ddp 交换光标所在行和其下紧邻的一行。
 
-## 移动命令
+### 移动命令
 
 h 左移一个字符
 l 右移一个字符，这个命令很少用，一般用 w 代替。
 k 上移一个字符
 j 下移一个字符
-以上四个命令可以配合数字使用，比如 20j 就是向下移动 20 行，5h 就是向左移动 5 个字符，在 Vim 中，很多命令都可以配合数字使用，比如删除 10 个字符 10x，在当前位置后插入 3 个！，3a！<Esc>，这里的 Esc 是必须的，否则命令不生效。
+以上四个命令可以配合数字使用，比如 20j 就是向下移动 20 行，5h 就是向左移动 5 个字符，在 Vim 中，很多命令都可以配合数字使用，比如删除 10 个字符 10x，在当前位置后插入 3 个！，3a！`<Esc>`，这里的 Esc 是必须的，否则命令不生效。
 
 w 向前移动一个单词（光标停在单词首部），如果已到行尾，则转至下一行行首。此命令快，可以代替 l 命令。
 
@@ -216,7 +218,7 @@ ge，同 b，光标停在单词尾部。
 
 0（数字 0）移动到本行第一个字符上，
 
-<HOME> 移动到本行第一个字符。同 0 健。
+`<HOME>` 移动到本行第一个字符。同 0 健。
 
 $ 移动到行尾 3$ 移动到下面 3 行的行尾
 
@@ -242,13 +244,13 @@ Ctrl + f 向下滚动一屏
 
 Ctrl + b 向上滚动一屏
 
-## 撤销和重做
+### 撤销和重做
 
 u 撤销（Undo）
 U 撤销对整行的操作
 Ctrl + r 重做（Redo），即撤销的撤销。
 
-## 删除命令
+### 删除命令
 
 x 删除当前字符
 
@@ -284,7 +286,7 @@ jdG（jd shift + g） 删除当前行之后所有行（不包括当前行）
 
 J(shift + j)　　删除两行之间的空行，实际上是合并两行。
 
-## 拷贝和粘贴
+### 拷贝和粘贴
 
 yy 拷贝当前行
 
@@ -304,7 +306,7 @@ ddp 交换当前行和其下一行
 
 xp 交换当前字符和其后一个字符
 
-## 剪切命令
+### 剪切命令
 
 正常模式下按 v（逐字）或 V（逐行）进入可视模式，然后用 jklh 命令移动即可选择某些行或字符，再按 d 即可剪切
 
@@ -314,7 +316,7 @@ ndd 剪切当前行之后的 n 行。利用 p 命令可以对剪切的内容进�
 
 :1, 10 m 20 将第 1-10 行移动到第 20 行之后。
 
-## 退出命令
+### 退出命令
 
 :wq 保存并退出
 
@@ -324,7 +326,7 @@ ZZ 保存并退出
 
 :e! 放弃所有修改，并打开原来文件。
 
-## 窗口命令
+### 窗口命令
 
 :split 或 new 打开一个新窗口，光标停在顶层的窗口上
 
@@ -354,7 +356,7 @@ ZZ 保存并退出。
 
 按 q 键加任意字母开始录制，再按 q 键结束录制（这意味着 vim 中的宏不可嵌套），使用的时候@加宏名，比如 qa。。。q 录制名为 a 的宏，@a 使用这个宏。
 
-## 执行 shell 命令
+### 执行 shell 命令
 
 :!command
 
@@ -366,7 +368,7 @@ ZZ 保存并退出。
 
 :suspend 或 Ctrl - Z 挂起 vim，回到 shell，按 fg 可以返回 vim。
 
-## 注释命令
+### 注释命令
 
 perl 程序中#开始的行为注释，所以要注释某些行，只需在行首加入#
 
@@ -378,7 +380,7 @@ perl 程序中#开始的行为注释，所以要注释某些行，只需在行�
 
 :%s/^/#/g 注释整个文档，此法更快。
 
-## 帮助命令
+### 帮助命令
 
 :help or F1 显示整个帮助
 :help xxx 显示 xxx 的帮助，比如 :help i, :help CTRL-[（即 Ctrl+[的帮助）。
@@ -388,7 +390,7 @@ perl 程序中#开始的行为注释，所以要注释某些行，只需在行�
 ：help i_<Esc> 插入模式下 Esc 的帮助，某个模式下的帮助用模式_主题的模式
 帮助文件中位于||之间的内容是超链接，可以用 Ctrl+]进入链接，Ctrl+o（Ctrl + t）返回
 
-## 其他非编辑命令
+### 其他非编辑命令
 
 . 重复前一次命令
 
