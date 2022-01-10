@@ -1,7 +1,9 @@
 module.exports = [
   { text: 'HTML', link: '/guide/html/html' },
   { text: 'JS', link: '/guide/js/js_2' },
+  { text: 'ES6', link: '/guide/es/es6_3' },
   { text: 'AJAX', link: '/guide/ajax/ajax' },
+  // { text: 'Git', link: '/guide/git/git_2' },
   { text: 'VUE', link: '/guide/vue/vue2' },
   {
     text: 'VUE项目',

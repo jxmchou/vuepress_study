@@ -52,11 +52,11 @@ module.exports = {
     noFoundPageByTencent: false,
     blogConfig: {
       category: {
-        location: 5, // 在导航栏菜单中所占的位置，默认2
+        location: 6, // 在导航栏菜单中所占的位置，默认2
         text: '知识分类' // 默认文案 “分类”
       },
       tag: {
-        location: 6, // 在导航栏菜单中所占的位置，默认3
+        location: 7, // 在导航栏菜单中所占的位置，默认3
         text: '分类标签' // 默认文案 “标签”
       },
       socialLinks: [
