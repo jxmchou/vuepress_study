@@ -76,10 +76,11 @@ module.exports = {
       ]
     },
     // 备案
-    record: 'ICP 备案文案',
-    recordLink: 'ICP 备案指向链接',
-    cyberSecurityRecord: '公安部备案文案',
-    cyberSecurityLink: '公安部备案指向链接',
+    record: '赣ICP备2021011762号',
+    recordLink: 'https:www.ychzx.top',
+    cyberSecurityRecord: '赣公网安备 36092302000144号',
+    cyberSecurityLink:
+      'http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=36092302000144',
     // 项目开始时间，只填写年份
     startYear: '2022',
     search: true,
