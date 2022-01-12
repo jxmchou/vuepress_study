@@ -18,7 +18,7 @@ tags:
 > [B站黑马程序员2022年前端学习路线图](https://www.bilibili.com/read/cv10431130?spm_id_from=333.1007.0.0)
 >
 > [B站尚硅谷2022年度全网最全Web前端学习路线](https://www.bilibili.com/read/cv5650633?spm_id_from=333.1007.0.0)
-> ![前端路线图](/img/前端路线图.jpg)
+> ![前端路线图](./img/web.jpg)
 
 ## 入门 - 高级 前端工程师 最优学习路线图
 
