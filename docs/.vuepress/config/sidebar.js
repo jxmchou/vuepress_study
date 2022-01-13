@@ -14,5 +14,5 @@ module.exports = {
   '/guide/ajax/': ['ajax', 'promise_1', 'promise_2', 'axios'],
   '/guide/git/':['git_2','git_1'],
   '/guide/vue/': ['vue2', 'vue2_test','vue3'],
-  
+  '/guide/Interview/':['roadMap','interview','js','interviewVue']
 }

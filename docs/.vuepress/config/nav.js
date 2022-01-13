@@ -3,7 +3,6 @@ module.exports = [
   { text: 'JS', link: '/guide/js/js_2' },
   { text: 'ES6', link: '/guide/es/es6_3' },
   { text: 'AJAX', link: '/guide/ajax/ajax' },
-  // { text: 'Git', link: '/guide/git/git_2' },
   { text: 'VUE', link: '/guide/vue/vue2' },
   {
     text: 'VUE项目',
@@ -13,5 +12,6 @@ module.exports = [
       { text: '后台电商管理项目', link: 'http://admin.ychzx.top' }
     ]
   },
+  { text: '前端面试题', link: '/guide/Interview/roadMap' },
   { text: '时间线', link: '/timeline/', icon: 'reco-date' }
 ]
