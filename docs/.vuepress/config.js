@@ -2,7 +2,7 @@ const plugins = require('./plugins')
 const nav = require('./config/nav')
 const sidebar = require('./config/sidebar')
 module.exports = {
-  title: 'MC猴的博客',
+  title: '南辰的博客',
   description: '你在凝望深渊的时候，深渊也在凝望你！！！',
   locales: {
     '/': {
@@ -18,13 +18,13 @@ module.exports = {
         content: 'width=device-width,initial-scale=1,user-scalable=no'
       }
     ],
-    ['meta', { name: 'author', content: 'MC猴' }],
+    ['meta', { name: 'author', content: '南辰' }],
     [
       'meta',
       {
         name: 'keywords',
         content:
-          'html,css,vue,vue项目,个人博客,Vuepress,前端,JavaScript,HTML,Vue,web跨域,React,Nodejs,MC猴的网站'
+          'html,css,vue,vue项目,个人博客,Vuepress,前端,JavaScript,HTML,Vue,web跨域,React,Nodejs,南辰的网站'
       }
     ],
     [
@@ -43,7 +43,7 @@ module.exports = {
   themeConfig: {
     type: 'blog',
     logo: '/img/logo.jpg',
-    author: 'MC猴',
+    author: '南辰',
     authorAvatar: '/img/logo.jpg',
     lastUpdated: '最近更新时间',
     nav,
@@ -77,7 +77,7 @@ module.exports = {
     },
     // 备案
     record: '赣ICP备2021011762号',
-    recordLink: 'https:www.ychzx.top',
+    recordLink: 'https://beian.miit.gov.cn/',
     cyberSecurityRecord: '赣公网安备 36092302000144号',
     cyberSecurityLink:
       'http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=36092302000144',
