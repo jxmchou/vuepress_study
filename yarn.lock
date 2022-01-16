@@ -9065,6 +9065,11 @@ vuepress-plugin-nuggets-style-copy@^1.0.3:
   dependencies:
     clipboard "^2.0.4"
 
+vuepress-plugin-reading-progress@^1.0.10:
+  version "1.0.10"
+  resolved "https://registry.npmmirror.com/vuepress-plugin-reading-progress/download/vuepress-plugin-reading-progress-1.0.10.tgz#0b9d44e27d583ff20e0307993aa4cbda49f3bdca"
+  integrity sha1-C51E4n1YP/IOAweZOqTL2knzvco=
+
 vuepress-plugin-ribbon@^1.0.4:
   version "1.0.4"
   resolved "https://registry.nlark.com/vuepress-plugin-ribbon/download/vuepress-plugin-ribbon-1.0.4.tgz#5a35311f76ebde1c01f0113ed24ccd5f46432bae"

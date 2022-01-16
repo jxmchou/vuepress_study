@@ -24,6 +24,7 @@
     "vuepress-plugin-dynamic-title": "^1.0.0",
     "vuepress-plugin-flowchart": "^1.5.0",
     "vuepress-plugin-nuggets-style-copy": "^1.0.3",
+    "vuepress-plugin-reading-progress": "^1.0.10",
     "vuepress-plugin-ribbon": "^1.0.4",
     "vuepress-theme-reco": "^1.6.10"
   }

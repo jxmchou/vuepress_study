@@ -20,5 +20,6 @@ module.exports = {
     'js',
     'interviewVue',
     'interviewVue2'
-  ]
+  ],
+  '/guide/heima/': ['note_01', 'note_02', 'note_03', 'note_04', 'note_05']
 }

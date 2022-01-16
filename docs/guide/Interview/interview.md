@@ -15,7 +15,8 @@ tags:
 
 ### #说明
 
-访问面试源文件[黑马程序员高频前端面试题-水印版](https://ychzx.top/studyWeb/interview/黑马程序员高频前端面试题-水印版.pdf)
+访问面试源文件[黑马程序员高频前端面试题-水印版](https://ychzx.top/studyWeb/interview/黑马程序员高频前端面试题-水印版.pdf)<br>
+手机端用夸克浏览器可以直接打开pdf文件
 
 # 前端常见高频面试题
 

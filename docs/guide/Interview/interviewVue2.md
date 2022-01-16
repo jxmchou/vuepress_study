@@ -15,8 +15,9 @@ tags:
 
 ### #说明
 
-访问面试宝典[pinkVue 常见面试题](https://ychzx.top/studyWeb/interview/pinkVue常见面试题-.pdf)
-面试宝典资源过大，需加载很长时间
+访问面试宝典[pinkVue 常见面试题](https://ychzx.top/studyWeb/interview/pinkVue常见面试题.pdf)
+面试宝典资源过大，需加载很长时间<br>
+手机端用夸克浏览器可以直接打开pdf文件
 
 # Vue 常见高频面试题(34-75)
 
@@ -241,7 +242,7 @@ export default new Router({
 **2、在路由中加入重定向**
 
 ```js
-;<router-link
+<router-link
   to="/"
   class="menu-home"
   active-class="active"
