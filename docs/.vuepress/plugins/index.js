@@ -66,7 +66,8 @@ module.exports = [
       recoverTime: 2000
     }
   ],
-  [
+  //#region
+  /* [
     //图片放大插件
     '@vuepressplugin-medium-zoom',
     {
@@ -78,7 +79,8 @@ module.exports = [
         scrollOffset: 40
       }
     }
-  ],
+  ], */
+  //#endregion
   [
     //插件广场的流程图插件 先安装在配置 yarn add vuepress-plugin-flowchart
     'flowchart'

@@ -3,7 +3,6 @@ title: Ajax体系
 date: 2022-01-16
 categories:
   - 黑马前端知识体系
-git 
 ---
 
 ### #说明
