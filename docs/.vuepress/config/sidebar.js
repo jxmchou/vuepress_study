@@ -21,6 +21,6 @@ module.exports = {
     'interviewVue',
     'interviewVue2'
   ],
-  '/guide/heima/': ['note_01', 'note_02', 'note_03', 'note_04', 'note_05'],
-  '/guide/fileNote/': ['note_01', 'note_02','note_03']
+  '/guide/heima/': ['note_01', 'note_02', 'note_03', 'note_04', 'note_05','note_06'],
+  '/guide/fileNote/': ['note_01', 'note_02', 'note_03', 'note_coderwhypdf']
 }

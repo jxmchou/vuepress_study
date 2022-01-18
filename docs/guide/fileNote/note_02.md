@@ -8,14 +8,14 @@ categories:
 ## ES6 学习笔记
 
 文档地址
-[ES6 学习笔记](https://ychzx.top/note/noteFile/ES6学习笔记.pdf)
+[ES6 学习笔记](https://ychzx.top/studyWeb/note/noteFile/ES6学习笔记.pdf)
 
 ## ECMAScript6
 
 文档地址
-[ECMAScript6](https://ychzx.top/note/noteFile/ECMAScript6.pdf)
+[ECMAScript6](https://ychzx.top/studyWeb/note/noteFile/ECMAScript6.pdf)
 
 ## 尚硅谷前端_ES6
 
 文档地址
-[尚硅谷前端_ES6](https://ychzx.top/note/noteFile/尚硅谷前端_ES6.pdf)
+[尚硅谷前端_ES6](https://ychzx.top/studyWeb/note/noteFile/尚硅谷前端_ES6.pdf)

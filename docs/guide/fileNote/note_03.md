@@ -8,4 +8,4 @@ categories:
 ## webpack 从入门到精通(上)
 
 文档地址
-[尚硅谷前端技术之 webpack 从入门到精通(上)](<https://ychzx.top/note/noteFile/尚硅谷前端技术之webpack从入门到精通(上).pdf>)
+[尚硅谷前端技术之 webpack 从入门到精通(上)](<https://ychzx.top/studyWeb/note/noteFile/尚硅谷前端技术之webpack从入门到精通(上).pdf>)
