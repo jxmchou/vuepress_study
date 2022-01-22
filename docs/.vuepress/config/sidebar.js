@@ -17,6 +17,8 @@ module.exports = {
   '/guide/Interview/': [
     'roadMap',
     'interview',
+    'html',
+    'css',
     'js',
     'interviewVue',
     'interviewVue2'
