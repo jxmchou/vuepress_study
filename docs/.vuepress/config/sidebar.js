@@ -20,6 +20,8 @@ module.exports = {
     'html',
     'css',
     'js',
+    'js1',
+    'js2',
     'interviewVue',
     'interviewVue2'
   ],
