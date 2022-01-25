@@ -24,8 +24,16 @@ module.exports = {
     'js2',
     'interviewVue',
     'interviewVue2',
-    'result'
+    'result',
+    'performance'
   ],
-  '/guide/heima/': ['note_01', 'note_02', 'note_03', 'note_04', 'note_05','note_06'],
+  '/guide/heima/': [
+    'note_01',
+    'note_02',
+    'note_03',
+    'note_04',
+    'note_05',
+    'note_06'
+  ],
   '/guide/fileNote/': ['note_01', 'note_02', 'note_03', 'note_coderwhypdf']
 }
